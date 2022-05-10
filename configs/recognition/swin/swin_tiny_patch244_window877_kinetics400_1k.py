@@ -120,3 +120,5 @@ optimizer_config = dict(
     bucket_size_mb=-1,
     use_fp16=True,
 )
+# https://mmcv.readthedocs.io/en/latest/_modules/mmcv/runner/hooks/optimizer.html?highlight=hook how to use hook? 
+# backward perform using hook; loss calculate using recognizer and heads/neck
